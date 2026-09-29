@@ -1,0 +1,18 @@
+{
+  "name": "hostless-nz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "axios": "^1.7.7",
+    "@grpc/grpc-js": "^1.12.0",
+    "@grpc/proto-loader": "^0.7.13",
+    "systeminformation": "^5.22.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
